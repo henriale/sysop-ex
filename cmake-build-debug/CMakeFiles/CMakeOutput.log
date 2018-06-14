@@ -1,0 +1,504 @@
+The system is: Windows - 10.0.15063 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Users/i867202/rubyDevKit/mingw/bin/gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "C:/Users/i867202/CLionProjects/polymorphism/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Users/i867202/rubyDevKit/mingw/bin/g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is GNU, found in "C:/Users/i867202/CLionProjects/polymorphism/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdCXX/a.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/i867202/CLionProjects/polymorphism/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Users/i867202/rubyDevKit/mingw/bin/mingw32-make.exe" "cmTC_15958/fast"
+C:/Users/i867202/rubyDevKit/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTC_15958.dir\build.make CMakeFiles/cmTC_15958.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Users/i867202/CLionProjects/polymorphism/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_15958.dir/testCCompiler.c.obj
+C:\Users\i867202\rubyDevKit\mingw\bin\gcc.exe    -o CMakeFiles\cmTC_15958.dir\testCCompiler.c.obj   -c C:\Users\i867202\CLionProjects\polymorphism\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_15958.exe
+"C:\Program Files\JetBrains\CLion 2018.1.3\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_15958.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2018.1.3\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_15958.dir/objects.a
+C:\Users\i867202\rubyDevKit\mingw\bin\ar.exe cr CMakeFiles\cmTC_15958.dir/objects.a @CMakeFiles\cmTC_15958.dir\objects1.rsp
+C:\Users\i867202\rubyDevKit\mingw\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_15958.dir/objects.a -Wl,--no-whole-archive  -o cmTC_15958.exe -Wl,--out-implib,libcmTC_15958.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_15958.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory `C:/Users/i867202/CLionProjects/polymorphism/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/i867202/CLionProjects/polymorphism/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Users/i867202/rubyDevKit/mingw/bin/mingw32-make.exe" "cmTC_432b5/fast"
+C:/Users/i867202/rubyDevKit/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTC_432b5.dir\build.make CMakeFiles/cmTC_432b5.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Users/i867202/CLionProjects/polymorphism/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_432b5.dir/CMakeCCompilerABI.c.obj
+C:\Users\i867202\rubyDevKit\mingw\bin\gcc.exe    -o CMakeFiles\cmTC_432b5.dir\CMakeCCompilerABI.c.obj   -c "C:\Program Files\JetBrains\CLion 2018.1.3\bin\cmake\share\cmake-3.10\Modules\CMakeCCompilerABI.c"
+Linking C executable cmTC_432b5.exe
+"C:\Program Files\JetBrains\CLion 2018.1.3\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_432b5.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2018.1.3\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_432b5.dir/objects.a
+C:\Users\i867202\rubyDevKit\mingw\bin\ar.exe cr CMakeFiles\cmTC_432b5.dir/objects.a @CMakeFiles\cmTC_432b5.dir\objects1.rsp
+C:\Users\i867202\rubyDevKit\mingw\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_432b5.dir/objects.a -Wl,--no-whole-archive  -o cmTC_432b5.exe -Wl,--out-implib,libcmTC_432b5.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Using built-in specs.
+COLLECT_GCC=C:\Users\i867202\rubyDevKit\mingw\bin\gcc.exe
+COLLECT_LTO_WRAPPER=c:/users/i867202/rubydevkit/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/4.7.2/lto-wrapper.exe
+Target: x86_64-w64-mingw32
+Configured with: /home/ruben/mingw-w64/src/gcc/configure --host=x86_64-w64-mingw32 --build=x86_64-linux-gnu --target=x86_64-w64-mingw32 --with-sysroot=/home/ruben/mingw-w64/mingw64mingw64/mingw64 --prefix=/home/ruben/mingw-w64/mingw64mingw64/mingw64 --with-gmp=/home/ruben/mingw-w64/prereq/x86_64-w64-mingw32/install --with-mpfr=/home/ruben/mingw-w64/prereq/x86_64-w64-mingw32/install --with-mpc=/home/ruben/mingw-w64/prereq/x86_64-w64-mingw32/install --with-ppl=/home/ruben/mingw-w64/prereq/x86_64-w64-mingw32/install --with-cloog=/home/ruben/mingw-w64/prereq/x86_64-w64-mingw32/install --disable-ppl-version-check --disable-cloog-version-check --enable-cloog-backend=isl --with-host-libstdcxx='-static -lstdc++ -lm' --enable-shared --enable-static --enable-threads=win32 --enable-plugins --disable-multilib --enable-languages=c,lto,c++,objc,obj-c++,fortran,java --enable-libgomp --enable-fully-dynamic-string --enable-libstdcxx-time --disable-nls --disable-werror --enable-checking=release --with-gnu-as --with-gnu-ld --disable-win32-registry --disable-rpath --disable-werror --with-libiconv-prefix=/home/ruben/mingw-w64/prereq/x86_64-w64-mingw32/install --with-pkgversion=rubenvb-4.7.2-release --with-bugurl=mingw-w64-public@lists.sourceforge.net CC= CFLAGS='-O2 -march=nocona -mtune=core2 -fomit-frame-pointer -momit-leaf-frame-pointer' LDFLAGS=
+Thread model: win32
+gcc version 4.7.2 (rubenvb-4.7.2-release) 
+COMPILER_PATH=c:/users/i867202/rubydevkit/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/4.7.2/;c:/users/i867202/rubydevkit/mingw/bin/../libexec/gcc/;c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/;c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/;c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/lib/../lib/;c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../lib/;c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/lib/;c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_432b5.exe' '-mtune=generic' '-march=x86-64'
+ c:/users/i867202/rubydevkit/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/4.7.2/collect2.exe --sysroot=/home/ruben/mingw-w64/mingw64mingw64/mingw64 -m i386pep -Bdynamic -o cmTC_432b5.exe c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/lib/../lib/crtbegin.o -Lc:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2 -Lc:/users/i867202/rubydevkit/mingw/bin/../lib/gcc -Lc:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/lib/../lib -Lc:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../lib -Lc:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/lib -Lc:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../.. --whole-archive CMakeFiles\cmTC_432b5.dir/objects.a --no-whole-archive --out-implib libcmTC_432b5.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc_eh -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_eh -lgcc -lmoldname -lmingwex -lmsvcrt c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/lib/../lib/crtend.o
+mingw32-make.exe[1]: Leaving directory `C:/Users/i867202/CLionProjects/polymorphism/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/i867202/CLionProjects/polymorphism/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"C:/Users/i867202/rubyDevKit/mingw/bin/mingw32-make.exe" "cmTC_432b5/fast"]
+  ignore line: [C:/Users/i867202/rubyDevKit/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTC_432b5.dir\build.make CMakeFiles/cmTC_432b5.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory `C:/Users/i867202/CLionProjects/polymorphism/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_432b5.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [C:\Users\i867202\rubyDevKit\mingw\bin\gcc.exe    -o CMakeFiles\cmTC_432b5.dir\CMakeCCompilerABI.c.obj   -c "C:\Program Files\JetBrains\CLion 2018.1.3\bin\cmake\share\cmake-3.10\Modules\CMakeCCompilerABI.c"]
+  ignore line: [Linking C executable cmTC_432b5.exe]
+  ignore line: ["C:\Program Files\JetBrains\CLion 2018.1.3\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_432b5.dir\link.txt --verbose=1]
+  ignore line: ["C:\Program Files\JetBrains\CLion 2018.1.3\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_432b5.dir/objects.a]
+  ignore line: [C:\Users\i867202\rubyDevKit\mingw\bin\ar.exe cr CMakeFiles\cmTC_432b5.dir/objects.a @CMakeFiles\cmTC_432b5.dir\objects1.rsp]
+  ignore line: [C:\Users\i867202\rubyDevKit\mingw\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_432b5.dir/objects.a -Wl,--no-whole-archive  -o cmTC_432b5.exe -Wl,--out-implib,libcmTC_432b5.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\Users\i867202\rubyDevKit\mingw\bin\gcc.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=c:/users/i867202/rubydevkit/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/4.7.2/lto-wrapper.exe]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: /home/ruben/mingw-w64/src/gcc/configure --host=x86_64-w64-mingw32 --build=x86_64-linux-gnu --target=x86_64-w64-mingw32 --with-sysroot=/home/ruben/mingw-w64/mingw64mingw64/mingw64 --prefix=/home/ruben/mingw-w64/mingw64mingw64/mingw64 --with-gmp=/home/ruben/mingw-w64/prereq/x86_64-w64-mingw32/install --with-mpfr=/home/ruben/mingw-w64/prereq/x86_64-w64-mingw32/install --with-mpc=/home/ruben/mingw-w64/prereq/x86_64-w64-mingw32/install --with-ppl=/home/ruben/mingw-w64/prereq/x86_64-w64-mingw32/install --with-cloog=/home/ruben/mingw-w64/prereq/x86_64-w64-mingw32/install --disable-ppl-version-check --disable-cloog-version-check --enable-cloog-backend=isl --with-host-libstdcxx='-static -lstdc++ -lm' --enable-shared --enable-static --enable-threads=win32 --enable-plugins --disable-multilib --enable-languages=c,lto,c++,objc,obj-c++,fortran,java --enable-libgomp --enable-fully-dynamic-string --enable-libstdcxx-time --disable-nls --disable-werror --enable-checking=release --with-gnu-as --with-gnu-ld --disable-win32-registry --disable-rpath --disable-werror --with-libiconv-prefix=/home/ruben/mingw-w64/prereq/x86_64-w64-mingw32/install --with-pkgversion=rubenvb-4.7.2-release --with-bugurl=mingw-w64-public@lists.sourceforge.net CC= CFLAGS='-O2 -march=nocona -mtune=core2 -fomit-frame-pointer -momit-leaf-frame-pointer' LDFLAGS=]
+  ignore line: [Thread model: win32]
+  ignore line: [gcc version 4.7.2 (rubenvb-4.7.2-release) ]
+  ignore line: [COMPILER_PATH=c:/users/i867202/rubydevkit/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/4.7.2/]
+  ignore line: [c:/users/i867202/rubydevkit/mingw/bin/../libexec/gcc/]
+  ignore line: [c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/]
+  ignore line: [c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/]
+  ignore line: [c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../lib/]
+  ignore line: [c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_432b5.exe' '-mtune=generic' '-march=x86-64']
+  link line: [ c:/users/i867202/rubydevkit/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/4.7.2/collect2.exe --sysroot=/home/ruben/mingw-w64/mingw64mingw64/mingw64 -m i386pep -Bdynamic -o cmTC_432b5.exe c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/lib/../lib/crtbegin.o -Lc:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2 -Lc:/users/i867202/rubydevkit/mingw/bin/../lib/gcc -Lc:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/lib/../lib -Lc:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../lib -Lc:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/lib -Lc:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../.. --whole-archive CMakeFiles\cmTC_432b5.dir/objects.a --no-whole-archive --out-implib libcmTC_432b5.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc_eh -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_eh -lgcc -lmoldname -lmingwex -lmsvcrt c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/lib/../lib/crtend.o]
+    arg [c:/users/i867202/rubydevkit/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/4.7.2/collect2.exe] ==> ignore
+    arg [--sysroot=/home/ruben/mingw-w64/mingw64mingw64/mingw64] ==> ignore
+    arg [-m] ==> ignore
+    arg [i386pep] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_432b5.exe] ==> ignore
+    arg [c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> ignore
+    arg [c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/lib/../lib/crtbegin.o] ==> ignore
+    arg [-Lc:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2] ==> dir [c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2]
+    arg [-Lc:/users/i867202/rubydevkit/mingw/bin/../lib/gcc] ==> dir [c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc]
+    arg [-Lc:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/lib/../lib]
+    arg [-Lc:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../lib] ==> dir [c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../lib]
+    arg [-Lc:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/lib] ==> dir [c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/lib]
+    arg [-Lc:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../..] ==> dir [c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../..]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles\cmTC_432b5.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_432b5.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/lib/../lib/crtend.o] ==> ignore
+  remove lib [gcc_eh]
+  remove lib [msvcrt]
+  remove lib [gcc_eh]
+  remove lib [msvcrt]
+  collapse library dir [c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2] ==> [C:/Users/i867202/rubyDevKit/mingw/lib/gcc/x86_64-w64-mingw32/4.7.2]
+  collapse library dir [c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc] ==> [C:/Users/i867202/rubyDevKit/mingw/lib/gcc]
+  collapse library dir [c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/lib/../lib] ==> [C:/Users/i867202/rubyDevKit/mingw/x86_64-w64-mingw32/lib]
+  collapse library dir [c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../lib] ==> [C:/Users/i867202/rubyDevKit/mingw/lib]
+  collapse library dir [c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/lib] ==> [C:/Users/i867202/rubyDevKit/mingw/x86_64-w64-mingw32/lib]
+  collapse library dir [c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../..] ==> [C:/Users/i867202/rubyDevKit/mingw/lib]
+  implicit libs: [mingw32;gcc;moldname;mingwex;advapi32;shell32;user32;kernel32;mingw32;gcc;moldname;mingwex]
+  implicit dirs: [C:/Users/i867202/rubyDevKit/mingw/lib/gcc/x86_64-w64-mingw32/4.7.2;C:/Users/i867202/rubyDevKit/mingw/lib/gcc;C:/Users/i867202/rubyDevKit/mingw/x86_64-w64-mingw32/lib;C:/Users/i867202/rubyDevKit/mingw/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: C:/Users/i867202/CLionProjects/polymorphism/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Users/i867202/rubyDevKit/mingw/bin/mingw32-make.exe" "cmTC_adc9a/fast"
+C:/Users/i867202/rubyDevKit/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTC_adc9a.dir\build.make CMakeFiles/cmTC_adc9a.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Users/i867202/CLionProjects/polymorphism/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_adc9a.dir/feature_tests.c.obj
+C:\Users\i867202\rubyDevKit\mingw\bin\gcc.exe   -std=c11 -o CMakeFiles\cmTC_adc9a.dir\feature_tests.c.obj   -c C:\Users\i867202\CLionProjects\polymorphism\cmake-build-debug\CMakeFiles\feature_tests.c
+Linking C executable cmTC_adc9a.exe
+"C:\Program Files\JetBrains\CLion 2018.1.3\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_adc9a.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2018.1.3\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_adc9a.dir/objects.a
+C:\Users\i867202\rubyDevKit\mingw\bin\ar.exe cr CMakeFiles\cmTC_adc9a.dir/objects.a @CMakeFiles\cmTC_adc9a.dir\objects1.rsp
+C:\Users\i867202\rubyDevKit\mingw\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_adc9a.dir/objects.a -Wl,--no-whole-archive  -o cmTC_adc9a.exe -Wl,--out-implib,libcmTC_adc9a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_adc9a.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory `C:/Users/i867202/CLionProjects/polymorphism/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: C:/Users/i867202/CLionProjects/polymorphism/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Users/i867202/rubyDevKit/mingw/bin/mingw32-make.exe" "cmTC_fab21/fast"
+C:/Users/i867202/rubyDevKit/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTC_fab21.dir\build.make CMakeFiles/cmTC_fab21.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Users/i867202/CLionProjects/polymorphism/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fab21.dir/feature_tests.c.obj
+C:\Users\i867202\rubyDevKit\mingw\bin\gcc.exe   -std=c99 -o CMakeFiles\cmTC_fab21.dir\feature_tests.c.obj   -c C:\Users\i867202\CLionProjects\polymorphism\cmake-build-debug\CMakeFiles\feature_tests.c
+Linking C executable cmTC_fab21.exe
+"C:\Program Files\JetBrains\CLion 2018.1.3\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_fab21.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2018.1.3\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_fab21.dir/objects.a
+C:\Users\i867202\rubyDevKit\mingw\bin\ar.exe cr CMakeFiles\cmTC_fab21.dir/objects.a @CMakeFiles\cmTC_fab21.dir\objects1.rsp
+C:\Users\i867202\rubyDevKit\mingw\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_fab21.dir/objects.a -Wl,--no-whole-archive  -o cmTC_fab21.exe -Wl,--out-implib,libcmTC_fab21.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_fab21.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory `C:/Users/i867202/CLionProjects/polymorphism/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: C:/Users/i867202/CLionProjects/polymorphism/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Users/i867202/rubyDevKit/mingw/bin/mingw32-make.exe" "cmTC_647ed/fast"
+C:/Users/i867202/rubyDevKit/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTC_647ed.dir\build.make CMakeFiles/cmTC_647ed.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Users/i867202/CLionProjects/polymorphism/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_647ed.dir/feature_tests.c.obj
+C:\Users\i867202\rubyDevKit\mingw\bin\gcc.exe   -std=c90 -o CMakeFiles\cmTC_647ed.dir\feature_tests.c.obj   -c C:\Users\i867202\CLionProjects\polymorphism\cmake-build-debug\CMakeFiles\feature_tests.c
+Linking C executable cmTC_647ed.exe
+"C:\Program Files\JetBrains\CLion 2018.1.3\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_647ed.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2018.1.3\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_647ed.dir/objects.a
+C:\Users\i867202\rubyDevKit\mingw\bin\ar.exe cr CMakeFiles\cmTC_647ed.dir/objects.a @CMakeFiles\cmTC_647ed.dir\objects1.rsp
+C:\Users\i867202\rubyDevKit\mingw\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_647ed.dir/objects.a -Wl,--no-whole-archive  -o cmTC_647ed.exe -Wl,--out-implib,libcmTC_647ed.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_647ed.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory `C:/Users/i867202/CLionProjects/polymorphism/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/i867202/CLionProjects/polymorphism/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Users/i867202/rubyDevKit/mingw/bin/mingw32-make.exe" "cmTC_05bcf/fast"
+C:/Users/i867202/rubyDevKit/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTC_05bcf.dir\build.make CMakeFiles/cmTC_05bcf.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Users/i867202/CLionProjects/polymorphism/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_05bcf.dir/testCXXCompiler.cxx.obj
+C:\Users\i867202\rubyDevKit\mingw\bin\g++.exe     -o CMakeFiles\cmTC_05bcf.dir\testCXXCompiler.cxx.obj -c C:\Users\i867202\CLionProjects\polymorphism\cmake-build-debug\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+Linking CXX executable cmTC_05bcf.exe
+"C:\Program Files\JetBrains\CLion 2018.1.3\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_05bcf.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2018.1.3\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_05bcf.dir/objects.a
+C:\Users\i867202\rubyDevKit\mingw\bin\ar.exe cr CMakeFiles\cmTC_05bcf.dir/objects.a @CMakeFiles\cmTC_05bcf.dir\objects1.rsp
+C:\Users\i867202\rubyDevKit\mingw\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_05bcf.dir/objects.a -Wl,--no-whole-archive  -o cmTC_05bcf.exe -Wl,--out-implib,libcmTC_05bcf.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_05bcf.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory `C:/Users/i867202/CLionProjects/polymorphism/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/i867202/CLionProjects/polymorphism/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Users/i867202/rubyDevKit/mingw/bin/mingw32-make.exe" "cmTC_c8603/fast"
+C:/Users/i867202/rubyDevKit/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTC_c8603.dir\build.make CMakeFiles/cmTC_c8603.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Users/i867202/CLionProjects/polymorphism/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c8603.dir/CMakeCXXCompilerABI.cpp.obj
+C:\Users\i867202\rubyDevKit\mingw\bin\g++.exe     -o CMakeFiles\cmTC_c8603.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files\JetBrains\CLion 2018.1.3\bin\cmake\share\cmake-3.10\Modules\CMakeCXXCompilerABI.cpp"
+Linking CXX executable cmTC_c8603.exe
+"C:\Program Files\JetBrains\CLion 2018.1.3\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_c8603.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2018.1.3\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_c8603.dir/objects.a
+C:\Users\i867202\rubyDevKit\mingw\bin\ar.exe cr CMakeFiles\cmTC_c8603.dir/objects.a @CMakeFiles\cmTC_c8603.dir\objects1.rsp
+C:\Users\i867202\rubyDevKit\mingw\bin\g++.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_c8603.dir/objects.a -Wl,--no-whole-archive  -o cmTC_c8603.exe -Wl,--out-implib,libcmTC_c8603.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Using built-in specs.
+COLLECT_GCC=C:\Users\i867202\rubyDevKit\mingw\bin\g++.exe
+COLLECT_LTO_WRAPPER=c:/users/i867202/rubydevkit/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/4.7.2/lto-wrapper.exe
+Target: x86_64-w64-mingw32
+Configured with: /home/ruben/mingw-w64/src/gcc/configure --host=x86_64-w64-mingw32 --build=x86_64-linux-gnu --target=x86_64-w64-mingw32 --with-sysroot=/home/ruben/mingw-w64/mingw64mingw64/mingw64 --prefix=/home/ruben/mingw-w64/mingw64mingw64/mingw64 --with-gmp=/home/ruben/mingw-w64/prereq/x86_64-w64-mingw32/install --with-mpfr=/home/ruben/mingw-w64/prereq/x86_64-w64-mingw32/install --with-mpc=/home/ruben/mingw-w64/prereq/x86_64-w64-mingw32/install --with-ppl=/home/ruben/mingw-w64/prereq/x86_64-w64-mingw32/install --with-cloog=/home/ruben/mingw-w64/prereq/x86_64-w64-mingw32/install --disable-ppl-version-check --disable-cloog-version-check --enable-cloog-backend=isl --with-host-libstdcxx='-static -lstdc++ -lm' --enable-shared --enable-static --enable-threads=win32 --enable-plugins --disable-multilib --enable-languages=c,lto,c++,objc,obj-c++,fortran,java --enable-libgomp --enable-fully-dynamic-string --enable-libstdcxx-time --disable-nls --disable-werror --enable-checking=release --with-gnu-as --with-gnu-ld --disable-win32-registry --disable-rpath --disable-werror --with-libiconv-prefix=/home/ruben/mingw-w64/prereq/x86_64-w64-mingw32/install --with-pkgversion=rubenvb-4.7.2-release --with-bugurl=mingw-w64-public@lists.sourceforge.net CC= CFLAGS='-O2 -march=nocona -mtune=core2 -fomit-frame-pointer -momit-leaf-frame-pointer' LDFLAGS=
+Thread model: win32
+gcc version 4.7.2 (rubenvb-4.7.2-release) 
+COMPILER_PATH=c:/users/i867202/rubydevkit/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/4.7.2/;c:/users/i867202/rubydevkit/mingw/bin/../libexec/gcc/;c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/;c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/;c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/lib/../lib/;c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../lib/;c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/lib/;c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c8603.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ c:/users/i867202/rubydevkit/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/4.7.2/collect2.exe --sysroot=/home/ruben/mingw-w64/mingw64mingw64/mingw64 -m i386pep -Bdynamic -o cmTC_c8603.exe c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/lib/../lib/crtbegin.o -Lc:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2 -Lc:/users/i867202/rubydevkit/mingw/bin/../lib/gcc -Lc:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/lib/../lib -Lc:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../lib -Lc:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/lib -Lc:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../.. --whole-archive CMakeFiles\cmTC_c8603.dir/objects.a --no-whole-archive --out-implib libcmTC_c8603.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/lib/../lib/crtend.o
+mingw32-make.exe[1]: Leaving directory `C:/Users/i867202/CLionProjects/polymorphism/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/i867202/CLionProjects/polymorphism/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"C:/Users/i867202/rubyDevKit/mingw/bin/mingw32-make.exe" "cmTC_c8603/fast"]
+  ignore line: [C:/Users/i867202/rubyDevKit/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTC_c8603.dir\build.make CMakeFiles/cmTC_c8603.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory `C:/Users/i867202/CLionProjects/polymorphism/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_c8603.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [C:\Users\i867202\rubyDevKit\mingw\bin\g++.exe     -o CMakeFiles\cmTC_c8603.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files\JetBrains\CLion 2018.1.3\bin\cmake\share\cmake-3.10\Modules\CMakeCXXCompilerABI.cpp"]
+  ignore line: [Linking CXX executable cmTC_c8603.exe]
+  ignore line: ["C:\Program Files\JetBrains\CLion 2018.1.3\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_c8603.dir\link.txt --verbose=1]
+  ignore line: ["C:\Program Files\JetBrains\CLion 2018.1.3\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_c8603.dir/objects.a]
+  ignore line: [C:\Users\i867202\rubyDevKit\mingw\bin\ar.exe cr CMakeFiles\cmTC_c8603.dir/objects.a @CMakeFiles\cmTC_c8603.dir\objects1.rsp]
+  ignore line: [C:\Users\i867202\rubyDevKit\mingw\bin\g++.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_c8603.dir/objects.a -Wl,--no-whole-archive  -o cmTC_c8603.exe -Wl,--out-implib,libcmTC_c8603.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\Users\i867202\rubyDevKit\mingw\bin\g++.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=c:/users/i867202/rubydevkit/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/4.7.2/lto-wrapper.exe]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: /home/ruben/mingw-w64/src/gcc/configure --host=x86_64-w64-mingw32 --build=x86_64-linux-gnu --target=x86_64-w64-mingw32 --with-sysroot=/home/ruben/mingw-w64/mingw64mingw64/mingw64 --prefix=/home/ruben/mingw-w64/mingw64mingw64/mingw64 --with-gmp=/home/ruben/mingw-w64/prereq/x86_64-w64-mingw32/install --with-mpfr=/home/ruben/mingw-w64/prereq/x86_64-w64-mingw32/install --with-mpc=/home/ruben/mingw-w64/prereq/x86_64-w64-mingw32/install --with-ppl=/home/ruben/mingw-w64/prereq/x86_64-w64-mingw32/install --with-cloog=/home/ruben/mingw-w64/prereq/x86_64-w64-mingw32/install --disable-ppl-version-check --disable-cloog-version-check --enable-cloog-backend=isl --with-host-libstdcxx='-static -lstdc++ -lm' --enable-shared --enable-static --enable-threads=win32 --enable-plugins --disable-multilib --enable-languages=c,lto,c++,objc,obj-c++,fortran,java --enable-libgomp --enable-fully-dynamic-string --enable-libstdcxx-time --disable-nls --disable-werror --enable-checking=release --with-gnu-as --with-gnu-ld --disable-win32-registry --disable-rpath --disable-werror --with-libiconv-prefix=/home/ruben/mingw-w64/prereq/x86_64-w64-mingw32/install --with-pkgversion=rubenvb-4.7.2-release --with-bugurl=mingw-w64-public@lists.sourceforge.net CC= CFLAGS='-O2 -march=nocona -mtune=core2 -fomit-frame-pointer -momit-leaf-frame-pointer' LDFLAGS=]
+  ignore line: [Thread model: win32]
+  ignore line: [gcc version 4.7.2 (rubenvb-4.7.2-release) ]
+  ignore line: [COMPILER_PATH=c:/users/i867202/rubydevkit/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/4.7.2/]
+  ignore line: [c:/users/i867202/rubydevkit/mingw/bin/../libexec/gcc/]
+  ignore line: [c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/]
+  ignore line: [c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/]
+  ignore line: [c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../lib/]
+  ignore line: [c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c8603.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ c:/users/i867202/rubydevkit/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/4.7.2/collect2.exe --sysroot=/home/ruben/mingw-w64/mingw64mingw64/mingw64 -m i386pep -Bdynamic -o cmTC_c8603.exe c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/lib/../lib/crtbegin.o -Lc:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2 -Lc:/users/i867202/rubydevkit/mingw/bin/../lib/gcc -Lc:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/lib/../lib -Lc:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../lib -Lc:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/lib -Lc:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../.. --whole-archive CMakeFiles\cmTC_c8603.dir/objects.a --no-whole-archive --out-implib libcmTC_c8603.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/lib/../lib/crtend.o]
+    arg [c:/users/i867202/rubydevkit/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/4.7.2/collect2.exe] ==> ignore
+    arg [--sysroot=/home/ruben/mingw-w64/mingw64mingw64/mingw64] ==> ignore
+    arg [-m] ==> ignore
+    arg [i386pep] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_c8603.exe] ==> ignore
+    arg [c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> ignore
+    arg [c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/lib/../lib/crtbegin.o] ==> ignore
+    arg [-Lc:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2] ==> dir [c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2]
+    arg [-Lc:/users/i867202/rubydevkit/mingw/bin/../lib/gcc] ==> dir [c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc]
+    arg [-Lc:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/lib/../lib]
+    arg [-Lc:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../lib] ==> dir [c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../lib]
+    arg [-Lc:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/lib] ==> dir [c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/lib]
+    arg [-Lc:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../..] ==> dir [c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../..]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles\cmTC_c8603.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_c8603.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/lib/../lib/crtend.o] ==> ignore
+  remove lib [msvcrt]
+  remove lib [msvcrt]
+  collapse library dir [c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2] ==> [C:/Users/i867202/rubyDevKit/mingw/lib/gcc/x86_64-w64-mingw32/4.7.2]
+  collapse library dir [c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc] ==> [C:/Users/i867202/rubyDevKit/mingw/lib/gcc]
+  collapse library dir [c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/lib/../lib] ==> [C:/Users/i867202/rubyDevKit/mingw/x86_64-w64-mingw32/lib]
+  collapse library dir [c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../lib] ==> [C:/Users/i867202/rubyDevKit/mingw/lib]
+  collapse library dir [c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../../../x86_64-w64-mingw32/lib] ==> [C:/Users/i867202/rubyDevKit/mingw/x86_64-w64-mingw32/lib]
+  collapse library dir [c:/users/i867202/rubydevkit/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.7.2/../../..] ==> [C:/Users/i867202/rubyDevKit/mingw/lib]
+  implicit libs: [stdc++;mingw32;gcc_s;gcc;moldname;mingwex;advapi32;shell32;user32;kernel32;mingw32;gcc_s;gcc;moldname;mingwex]
+  implicit dirs: [C:/Users/i867202/rubyDevKit/mingw/lib/gcc/x86_64-w64-mingw32/4.7.2;C:/Users/i867202/rubyDevKit/mingw/lib/gcc;C:/Users/i867202/rubyDevKit/mingw/x86_64-w64-mingw32/lib;C:/Users/i867202/rubyDevKit/mingw/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: C:/Users/i867202/CLionProjects/polymorphism/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Users/i867202/rubyDevKit/mingw/bin/mingw32-make.exe" "cmTC_42cd0/fast"
+C:/Users/i867202/rubyDevKit/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTC_42cd0.dir\build.make CMakeFiles/cmTC_42cd0.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Users/i867202/CLionProjects/polymorphism/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_42cd0.dir/feature_tests.cxx.obj
+C:\Users\i867202\rubyDevKit\mingw\bin\g++.exe    -std=c++11 -o CMakeFiles\cmTC_42cd0.dir\feature_tests.cxx.obj -c C:\Users\i867202\CLionProjects\polymorphism\cmake-build-debug\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_42cd0.exe
+"C:\Program Files\JetBrains\CLion 2018.1.3\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_42cd0.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2018.1.3\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_42cd0.dir/objects.a
+C:\Users\i867202\rubyDevKit\mingw\bin\ar.exe cr CMakeFiles\cmTC_42cd0.dir/objects.a @CMakeFiles\cmTC_42cd0.dir\objects1.rsp
+C:\Users\i867202\rubyDevKit\mingw\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_42cd0.dir/objects.a -Wl,--no-whole-archive  -o cmTC_42cd0.exe -Wl,--out-implib,libcmTC_42cd0.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_42cd0.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory `C:/Users/i867202/CLionProjects/polymorphism/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: C:/Users/i867202/CLionProjects/polymorphism/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Users/i867202/rubyDevKit/mingw/bin/mingw32-make.exe" "cmTC_20b37/fast"
+C:/Users/i867202/rubyDevKit/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTC_20b37.dir\build.make CMakeFiles/cmTC_20b37.dir/build
+mingw32-make.exe[1]: Entering directory `C:/Users/i867202/CLionProjects/polymorphism/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_20b37.dir/feature_tests.cxx.obj
+C:\Users\i867202\rubyDevKit\mingw\bin\g++.exe    -std=c++98 -o CMakeFiles\cmTC_20b37.dir\feature_tests.cxx.obj -c C:\Users\i867202\CLionProjects\polymorphism\cmake-build-debug\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_20b37.exe
+"C:\Program Files\JetBrains\CLion 2018.1.3\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_20b37.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2018.1.3\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_20b37.dir/objects.a
+C:\Users\i867202\rubyDevKit\mingw\bin\ar.exe cr CMakeFiles\cmTC_20b37.dir/objects.a @CMakeFiles\cmTC_20b37.dir\objects1.rsp
+C:\Users\i867202\rubyDevKit\mingw\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_20b37.dir/objects.a -Wl,--no-whole-archive  -o cmTC_20b37.exe -Wl,--out-implib,libcmTC_20b37.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_20b37.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory `C:/Users/i867202/CLionProjects/polymorphism/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates

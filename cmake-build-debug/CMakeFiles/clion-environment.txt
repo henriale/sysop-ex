@@ -1,0 +1,4 @@
+ToolSet: w64 2.0@C:\Users\i867202\rubyDevKit\mingw
+Options: 
+
+Options:
